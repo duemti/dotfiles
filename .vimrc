@@ -1,4 +1,6 @@
 call plug#begin('~/.vim/plugged')
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 " Comment functions so powerful—no comment necessary.
 Plug 'scrooloose/nerdcommenter'
