@@ -46,4 +46,7 @@ set listchars=tab:⋮\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
 set bg=dark
 colorscheme gruvbox
 
+set relativenumber	" Line number realative to cursor position
+set scrolloff=10	" Keep cursor in view
+
 filetype plugin on
