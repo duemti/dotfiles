@@ -29,6 +29,9 @@ Plug 'sheerun/vim-polyglot'
 " An up-to-date Vim syntax for PHP.
 Plug 'stanangeloff/php.vim'
 
+" Vim syntax highlighting for Blade templates (Laravel 4+).
+"Plug 'jwalton512/vim-blade'
+
 call plug#end()
 
 set t_Co=256
@@ -48,5 +51,6 @@ colorscheme gruvbox
 
 set relativenumber	" Line number realative to cursor position
 set scrolloff=10	" Keep cursor in view
+syntax on
 
 filetype plugin on
